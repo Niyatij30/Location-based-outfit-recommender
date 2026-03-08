@@ -1,0 +1,1203 @@
+.frameChild {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.men {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 43px;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameItem {
+  cursor: pointer;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.rectangleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.women {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameInner {
+  cursor: pointer;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.rectangleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.kids {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 44px;
+}
+.frameGroup {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.categoryLinks,
+.footerCategories,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categoryLinks {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.footerCategories {
+  flex-direction: row;
+  padding: 0 var(--padding-23xl) var(--padding-mid);
+}
+.lineDiv {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.brands {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 83px;
+}
+.searchField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.search2Icon {
+  height: 33.4px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-mid);
+  object-fit: cover;
+}
+.brandSearch,
+.searchInputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.searchInputContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.brandSearch {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) var(--padding-10xs-6) var(--padding-3xl);
+  font-size: var(--font-size-xl);
+}
+.brandIconPlaceholder {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.pashminaTextiles {
+  position: relative;
+}
+.brandHighlight,
+.brandNameContainer,
+.featuredBrand {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brandNameContainer {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.brandHighlight,
+.featuredBrand {
+  flex-direction: row;
+}
+.brandHighlight {
+  gap: var(--gap-mid);
+}
+.featuredBrand {
+  padding: 0 var(--padding-23xl);
+}
+.brandIcons {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.kashmiriArts {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+}
+.brandList,
+.brandTiles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brandTiles {
+  gap: var(--gap-mid);
+}
+.brandList {
+  padding: 0 var(--padding-23xl);
+}
+.rectangleInput {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.xyzBrand {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.brandList1,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  gap: var(--gap-lgi);
+}
+.brandList1 {
+  padding: 0 var(--padding-23xl);
+}
+.rectangleInput1 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.xyzBrand1 {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.brandList2,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: var(--gap-lgi);
+}
+.brandList2 {
+  padding: 0 var(--padding-23xl);
+}
+.rectangleInput2 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.xyzBrand2 {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.brandList3,
+.rectangleParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent1 {
+  gap: var(--gap-lgi);
+}
+.brandList3 {
+  padding: 0 var(--padding-23xl);
+}
+.rectangleInput3 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.xyzBrand3 {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.brandList4,
+.rectangleParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent2 {
+  gap: var(--gap-lgi);
+}
+.brandList4 {
+  padding: 0 var(--padding-23xl);
+}
+.rectangleInput4 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.xyzBrand4 {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.brandList5,
+.lineParent,
+.rectangleParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent3 {
+  gap: var(--gap-lgi);
+}
+.brandList5,
+.lineParent {
+  padding: 0 var(--padding-23xl);
+}
+.lineParent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-base);
+}
+.frameChild1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.price {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 59px;
+}
+.lineGroup,
+.priceFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+}
+.lineGroup {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  gap: var(--gap-smi);
+}
+.priceRangeInput {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.priceRangeInput,
+.rs186To {
+  position: relative;
+}
+.priceSlider {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.customRangeInput {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.rs75140To {
+  position: relative;
+}
+.customPriceRange,
+.customRangeLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.customRangeLabel {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.customPriceRange {
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.rangeSelector {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.rangeSelector,
+.rs150094To {
+  position: relative;
+}
+.priceOption {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.rectangleInput5 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.rectangleInput5,
+.rs225048To {
+  position: relative;
+}
+.priceOption1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.priceRangeOptions {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.priceInput,
+.priceRange,
+.priceRangeOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceInput {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.priceRange {
+  width: 320px;
+  flex-direction: row;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.discountSeparator,
+.discountSeparatorChild {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.discountSeparatorChild {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  z-index: 1;
+}
+.discountSeparator {
+  height: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.discountRange {
+  position: relative;
+  font-weight: 600;
+}
+.rangeButton {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+}
+.discountRangeRow,
+.rangeLabelContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rangeLabelContainer {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.discountRangeRow {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rectangleInput6 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove1 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+}
+.andAboveWrapper,
+.discountRangeRow1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andAboveWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.discountRangeRow1 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rectangleInput7 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove2 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+}
+.discountRangeRow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.rectangleInput8 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove3 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+}
+.andAboveContainer,
+.discountRangeRow3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andAboveContainer {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.discountRangeRow3 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rectangleInput9 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove4 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+}
+.andAboveFrame,
+.discountRangeRow4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andAboveFrame {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.discountRangeRow4 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rangeLabelContainer1 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove5 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+}
+.rangeButton1,
+.rangeValue {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rangeValue {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.rangeButton1 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rectangleInput10 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove6 {
+  position: relative;
+  display: inline-block;
+  min-width: 116px;
+}
+.andAboveWrapper1,
+.rangeButton2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.andAboveWrapper1 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.rangeButton2 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rectangleInput11 {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.andAbove7 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+}
+.andAboveWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.discountRangeRow5,
+.discountRangeRowParent,
+.rangeButton3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.discountRangeRow5,
+.discountRangeRowParent {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.discountRangeRow5 {
+  align-self: stretch;
+}
+.discountRangeRowParent {
+  flex: 1;
+}
+.discountOptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 var(--padding-xl);
+  font-size: var(--font-size-base);
+}
+.discountContainer,
+.discountHeader {
+  display: flex;
+  justify-content: flex-start;
+}
+.discountHeader {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+}
+.discountContainer {
+  width: 225px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.colorSeparatorChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.color {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 70px;
+}
+.search3Icon {
+  height: 33.4px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-mid);
+  object-fit: cover;
+}
+.colorSearch {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.colorIndicator {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.white {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+}
+.colorInput,
+.colorSwatch {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.colorInput {
+  gap: var(--gap-xs);
+}
+.colorSwatch {
+  padding: 0 var(--padding-xl) var(--padding-10xs-4);
+}
+.colorName {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.colorIndicator1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.black {
+  position: relative;
+  display: inline-block;
+  min-width: 41px;
+}
+.colorInput1,
+.colorSwatch1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.colorInput1 {
+  gap: var(--gap-xs);
+}
+.colorSwatch1 {
+  padding: 0 var(--padding-xl) var(--padding-8xs-4);
+}
+.colorIndicator2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-tomato);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.red {
+  position: relative;
+  display: inline-block;
+  min-width: 30px;
+}
+.colorInput2,
+.colorSwatch2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.colorInput2 {
+  gap: var(--gap-xs);
+}
+.colorSwatch2 {
+  padding: 0 var(--padding-xl) var(--padding-8xs-4);
+}
+.rectangleDiv {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gold-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.yellow {
+  position: relative;
+  display: inline-block;
+  min-width: 49px;
+}
+.colorSwatch3,
+.rectangleParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent4 {
+  gap: var(--gap-xs);
+}
+.colorSwatch3 {
+  padding: 0 var(--padding-xl) var(--padding-8xs-4);
+}
+.colorIndicator3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.blue {
+  position: relative;
+  display: inline-block;
+  min-width: 33px;
+}
+.colorInput3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.colorSwatch4 {
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+}
+.colorContainer,
+.colorOptions,
+.colorSeparator,
+.colorSwatch4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.colorOptions {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs-6);
+}
+.colorContainer,
+.colorSeparator {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-6xl) 0 var(--padding-3xl);
+}
+.colorSeparator {
+  flex-direction: column;
+  padding: 0 0 var(--padding-10xs);
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-base);
+}
+.separator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.footerContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.divider {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.productRow1 {
+  height: 1189px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.footer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-width: 237px;
+  max-width: 100%;
+}
+.k6Icon {
+  align-self: stretch;
+  height: 359px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.productInfo {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.footerParent,
+.productInfo,
+.productTile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productTile {
+  height: 1384px;
+  width: 239px;
+  flex-direction: column;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+  min-width: 239px;
+}
+.footerParent {
+  width: 667px;
+  flex-direction: row;
+  gap: var(--gap-44xl);
+  max-width: calc(100% - 518px);
+  flex-shrink: 0;
+}
+.k5Icon {
+  align-self: stretch;
+  height: 359px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameContainer,
+.productRowInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  height: 1340px;
+  gap: var(--gap-16xl);
+}
+.productRowInner {
+  height: 1188px;
+  width: 239px;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+}
+.k10Icon {
+  align-self: stretch;
+  height: 359px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameParent1,
+.productRow,
+.productRowChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  height: 1340px;
+  gap: var(--gap-16xl);
+}
+.productRow,
+.productRowChild {
+  height: 1188px;
+  width: 239px;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+}
+.productRow {
+  width: 1383px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.productList,
+.productListChild {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.productListChild {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray);
+  z-index: 1;
+  margin-top: -1188px;
+}
+.productList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-136xl);
+  min-height: 1343px;
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .productRowChild,
+  .productRowInner,
+  .productTile {
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .footerParent {
+    max-width: 100%;
+  }
+  .productRowChild,
+  .productRowInner {
+    display: none;
+  }
+  .productRow {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .productTile {
+    flex: 1;
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footerParent {
+    flex-wrap: wrap;
+    gap: var(--gap-12xl);
+  }
+  .productRowChild,
+  .productRowInner {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .productRow {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .brands,
+  .kids,
+  .men,
+  .women {
+    font-size: var(--font-size-base);
+  }
+  .searchInputContainer {
+    flex-wrap: wrap;
+  }
+  .featuredBrand {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .price {
+    font-size: var(--font-size-base);
+  }
+  .priceRange {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .color,
+  .discountRange {
+    font-size: var(--font-size-base);
+  }
+  .colorSearch {
+    flex-wrap: wrap;
+  }
+  .footerParent {
+    gap: var(--gap-base);
+  }
+}

@@ -1,0 +1,49 @@
+.decadesChild,
+.s1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.decadesChild {
+  background-color: var(--color-white);
+  display: none;
+}
+.s1Icon {
+  object-fit: cover;
+}
+.fashion,
+.s {
+  margin: 0;
+}
+.sFashion {
+  position: absolute;
+  top: 91px;
+  left: 105px;
+  font-weight: 800;
+  z-index: 3;
+}
+.decades {
+  position: absolute;
+  top: 63px;
+  left: 650px;
+  background-color: var(--color-white);
+  width: 443px;
+  height: 356px;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .sFashion {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sFashion {
+    font-size: var(--font-size-19xl);
+  }
+}

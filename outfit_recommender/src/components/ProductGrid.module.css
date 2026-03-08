@@ -1,0 +1,142 @@
+.productRow,
+.productRow1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.jaipurPrints {
+  width: 123px;
+  height: 24px;
+  font-weight: 600;
+}
+.greenWorkSuit,
+.jaipurPrints,
+.rs2000 {
+  position: relative;
+  display: inline-block;
+}
+.greenWorkSuit {
+  align-self: stretch;
+  height: 19px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.rs2000 {
+  width: 87px;
+  height: 24px;
+  font-weight: 600;
+}
+.productTriple {
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.jaipurPrints1 {
+  width: 123px;
+  height: 24px;
+  font-weight: 600;
+}
+.greenWorkSuit1,
+.jaipurPrints1,
+.rs20001 {
+  position: relative;
+  display: inline-block;
+}
+.greenWorkSuit1 {
+  align-self: stretch;
+  height: 19px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.rs20001 {
+  width: 87px;
+  height: 24px;
+  font-weight: 600;
+}
+.productTriple1 {
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.jaipurPrints2 {
+  width: 123px;
+  height: 24px;
+  font-weight: 600;
+}
+.greenWorkSuit2,
+.jaipurPrints2,
+.rs20002 {
+  position: relative;
+  display: inline-block;
+}
+.greenWorkSuit2 {
+  align-self: stretch;
+  height: 19px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.rs20002 {
+  width: 87px;
+  height: 24px;
+  font-weight: 600;
+}
+.productTriple2 {
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.productGrid,
+.productsRow {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.productsRow {
+  width: 863px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.productGrid {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .productRow,
+  .productRow1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .productsRow {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jaipurPrints,
+  .jaipurPrints1,
+  .jaipurPrints2,
+  .rs2000,
+  .rs20001,
+  .rs20002 {
+    font-size: var(--font-size-base);
+  }
+}

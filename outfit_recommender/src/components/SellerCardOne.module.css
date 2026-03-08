@@ -1,0 +1,152 @@
+.k9Icon {
+  height: 692px;
+  flex: 1;
+  min-width: 330px;
+}
+.k10Icon,
+.k12Icon,
+.k9Icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.k10Icon {
+  align-self: stretch;
+  height: 335px;
+  flex-shrink: 0;
+}
+.k12Icon {
+  height: 346px;
+  flex: 1;
+}
+.sellerDetailsThree,
+.sellerNameRating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sellerNameRating {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.sellerDetailsThree {
+  width: 274px;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.pashmina {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  filter: blur(4px);
+}
+.sellerShopLink {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pashmina1 {
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 101px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-crimson);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  margin: 0 0 0-511px;
+}
+.sellerShopLinkParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pashminaKnownFor {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-style: italic;
+  font-weight: 300;
+  font-family: inherit;
+  color: var(--color-black);
+  text-align: justify;
+}
+.seeMoreButton {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.seeMoreButton,
+.sellerCardOne,
+.shopDescriptionTwo {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.shopDescriptionTwo {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-83xl);
+  box-sizing: border-box;
+  min-width: 332px;
+  min-height: 714px;
+}
+.sellerCardOne {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-palevioletred);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .pashmina,
+  .pashmina1 {
+    font-size: var(--font-size-29xl);
+  }
+  .pashmina1 {
+    line-height: 61px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .shopDescriptionTwo {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+  .sellerCardOne {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .pashmina,
+  .pashmina1 {
+    font-size: var(--font-size-10xl);
+  }
+  .pashmina1 {
+    line-height: 40px;
+  }
+  .pashminaKnownFor {
+    font-size: var(--font-size-3xl);
+  }
+}

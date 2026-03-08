@@ -1,0 +1,56 @@
+.phulkariPicIcon,
+.productCardsChild {
+  width: 400px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.phulkariPicIcon {
+  height: 543.2px;
+  object-fit: cover;
+}
+.productCardsChild {
+  height: 120px;
+  background-color: var(--color-gray-300);
+}
+.findAuthenticPhulkari {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.productCards,
+.productCategories {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.productCards {
+  flex: 1;
+  background-color: var(--color-gray-300);
+  align-items: flex-start;
+  padding: var(--padding-lg) var(--padding-15xl);
+  z-index: 1;
+}
+.productCategories {
+  align-items: flex-end;
+  padding: 0 0 var(--padding-12xs-2);
+  background-image: url(/public/phulkari-pic@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 543px;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .findAuthenticPhulkari {
+    font-size: var(--font-size-lg);
+  }
+}

@@ -1,0 +1,191 @@
+.navBarChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.logo1Icon {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 78px;
+  height: 59px;
+  object-fit: cover;
+  z-index: 1;
+}
+.men,
+.new {
+  height: 29px;
+  width: 96px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.men {
+  position: absolute;
+  top: 62px;
+  left: 87px;
+}
+.new {
+  position: relative;
+  flex-shrink: 0;
+}
+.newWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.pehnava {
+  margin-top: -12px;
+  text-decoration: none;
+  height: 29px;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameParent,
+.pehnavaWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pehnavaWrapper {
+  width: 116px;
+  height: 17px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.frameParent {
+  position: absolute;
+  top: 45px;
+  left: 551px;
+  width: 142px;
+  flex-direction: column;
+  font-size: var(--font-size-sm);
+  color: var(--color-deeppink);
+}
+.beauty {
+  left: 455px;
+  width: 96px;
+}
+.beauty,
+.homeLiving,
+.kids,
+.women {
+  text-decoration: none;
+  position: absolute;
+  top: 62px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  height: 29px;
+  z-index: 1;
+}
+.homeLiving {
+  left: 272px;
+  width: 229px;
+  white-space: nowrap;
+}
+.kids,
+.women {
+  left: 237px;
+  width: 96px;
+}
+.women {
+  left: 162px;
+}
+.frameChild {
+  height: 70px;
+  width: 500px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.search1Icon {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 45.5px;
+  height: 40px;
+  object-fit: cover;
+  z-index: 2;
+}
+.searchForProducts {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-lg);
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  height: 22px;
+  white-space: nowrap;
+  padding: 0;
+  z-index: 3;
+}
+.search1Parent {
+  height: 40px;
+  width: 458px;
+  position: relative;
+  max-width: 100%;
+}
+.rectangleParent {
+  position: absolute;
+  top: 39px;
+  left: 679px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-whitesmoke);
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.logo21Icon {
+  position: absolute;
+  top: 44px;
+  left: 1179px;
+  width: 252px;
+  height: 57px;
+  object-fit: cover;
+  z-index: 2;
+}
+.navBar {
+  margin-right: -2px;
+  align-self: stretch;
+  height: 139px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,143 @@
+.srinagarTrends {
+  font-weight: 600;
+}
+.items {
+  font-weight: 300;
+}
+.srinagarTrendsContainer {
+  position: relative;
+}
+.clearAll,
+.filters {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 79px;
+}
+.clearAll {
+  min-width: 87px;
+}
+.clearFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  font-size: var(--font-size-base);
+  color: var(--color-crimson);
+}
+.filtersParent,
+.productCount {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.productCount {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.frameChild,
+.headerLeft {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.headerLeft {
+  width: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.frameChild {
+  height: 48px;
+  width: 361px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 0.5px solid var(--color-gainsboro-200);
+  display: none;
+  z-index: 0;
+}
+.recommended,
+.sortBy {
+  position: relative;
+  z-index: 1;
+}
+.sortBy {
+  font-weight: 200;
+  display: inline-block;
+  min-width: 72px;
+}
+.recommended {
+  font-weight: 600;
+}
+.simpleLineIconsarrowUp {
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  margin: 0 !important;
+  right: 16px;
+  bottom: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 361px;
+  border-radius: var(--br-8xs);
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-mid);
+  position: relative;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.listingHeader,
+.productListing {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.listingHeader {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.productListing {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) var(--padding-smi) var(--padding-3xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .listingHeader {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .filters,
+  .recommended,
+  .sortBy,
+  .srinagarTrendsContainer {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}

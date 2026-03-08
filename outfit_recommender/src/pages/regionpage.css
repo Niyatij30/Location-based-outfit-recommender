@@ -1,0 +1,9 @@
+.Card-Container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:4vw;
+    /* justify-content:space-evenly; */
+    padding:2vw;
+    padding-left: 4vw;
+  }

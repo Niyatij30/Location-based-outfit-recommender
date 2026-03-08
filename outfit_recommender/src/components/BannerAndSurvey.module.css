@@ -1,0 +1,99 @@
+.bannerAndSurveyChild {
+  height: 70px;
+  width: 1440px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-darkslateblue);
+  display: none;
+  max-width: 100%;
+}
+.materialSymbolsfeaturedSeasIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.banners {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.attemptThisWeeks {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 5;
+}
+.survey {
+  width: 1113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.clickHereChild {
+  height: 43px;
+  width: 161px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.clickHere1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 100px;
+  z-index: 6;
+}
+.bannerAndSurvey,
+.clickHere {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clickHere {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: var(--padding-6xs) var(--padding-10xl) var(--padding-5xs)
+    var(--padding-11xl);
+  background-color: var(--color-gainsboro-300);
+  border-radius: var(--br-4xs);
+  white-space: nowrap;
+  z-index: 5;
+}
+.clickHere:hover {
+  background-color: var(--color-silver);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.bannerAndSurvey {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-darkslateblue);
+  padding: var(--padding-sm) var(--padding-6xl) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  z-index: 4;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
